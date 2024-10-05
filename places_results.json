@@ -1,0 +1,766 @@
+[{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "314 Av. Thiers, 33100 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=4136985024301520039",
+    "id": "ChIJ169ZmiUpVQ0Rp1Sa_vWFaTk",
+    "internationalPhoneNumber": "+33 9 50 93 44 72",
+    "rating": 4.9,
+    "shortFormattedAddress": "314 Av. Thiers, Bordeaux",
+    "userRatingCount": 144,
+    "websiteUri": "https://www.so-lesaloncanin.fr/",
+    "name": "SO Le Salon canin",
+    "openingHours": [
+        {
+            "day": 1,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 2,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 3,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 4,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 5,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "De loin LE meilleur salon canin de Bordeaux et m\u00eame de Nouvelle-Aquitaine je suis s\u00fbre. J\u2019ai rarement vu des personnes autant passionn\u00e9es par leur m\u00e9tier. J\u2019ai un berger australien de 2 ans qui d\u00e9veloppait des angoisses quand je l\u2019emmenais se faire toiletter. En expliquant la situation \u00e0 Sandrine et Olivier ils ont de suite su adapter la s\u00e9ance qui s\u2019est extr\u00eamement bien pass\u00e9e. Ce sont des personnes bienveillantes, adorables et qui savent rendre votre loulou heureux. Aujourd\u2019hui mon chien adore revenir chez eux (pour qu\u00e9mander les friandises)\nJe vais beaucoup regretter leur d\u00e9part\u2026\nEncore milles mercis et prenez soin de vous !",
+            "author": {
+                "name": "Louise Viallesoubranne",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVvdbcLPsfbpBCKj6xWpTxkWwHSaXVyEIKUHQXaeWN6JZfzgYQd=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishedAt": "2023-08-01T07:39:46.320016Z"
+        },
+        {
+            "rating": 5,
+            "text": "Nous y emmenons notre petit Spitz depuis maintenant 3 ans pour son toilettage, Sandrine et Olivier sont d\u2019une extr\u00eame gentillesse et tr\u00e8s attentifs au bien \u00eatre de l\u2019animal! Nous ne pouvons que les recommander sans h\u00e9sitation ;)",
+            "author": {
+                "name": "Alexia",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL2SJo7TymMmpCNijqz_809q3AWLOFc-EeLVEnYbXlvFOqCMQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2022-11-20T10:59:29.442908Z"
+        },
+        {
+            "rating": 5,
+            "text": "Pour une premi\u00e8re exp\u00e9rience, Sandrine et Olivier ont su faire preuve d'un professionnalisme hors du commun. L'accueil est chaleureux et la mise en confiance au rendez-vous. L'attention port\u00e9e au moindre d\u00e9tail de l'animal et des soins r\u00e9alis\u00e9s est (positivement) surprenante ! Ces deux r\u00e9els amoureux des animaux portent un flanc tr\u00e8s agr\u00e9able \u00e0 l'exp\u00e9rience pour la rendre d\u00e9licieuse autant qu'efficace. Le poil est doux, soyeux, il sent bon la bienveillance d\u00e9licatement pos\u00e9e tout au long de ces deux heures de soin dont Ra\u00efa est sortie toute \u00e9mouss\u00e9e ! Je recommande aussi vivement que l'attitude de mon chien en sortant ne me le sugg\u00e8re en marchant la t\u00eate fi\u00e8re et haute sur le chemin du retour ! Merci encore \u00e0 tous les deux de cet excellent moment. Nicolas.",
+            "author": {
+                "name": "Nicolas zabarte",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXIG4euSEiDOy0yDMkLPetWuJi6yO5jLCQiL_lqcZcrb8qFvUQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishedAt": "2021-05-11T15:45:09.259246Z"
+        },
+        {
+            "rating": 5,
+            "text": "Super salon de toilettage. La comp\u00e9tence, la gentillesse, la bienveillance et le respect envers le chien et son ma\u00eetre, les bons conseils tout y est. Ils se donnent \u00e0 fond pour vous rendre un chien magnifiquement toilett\u00e9, avec des produits de qualit\u00e9. Mon Terre-Neuve est ressorti de l\u00e0 avec un poil super doux, brillant, lustr\u00e9, chaque poil se d\u00e9tachant du pr\u00e9c\u00e9dent que s'en est incroyable. Ils m'ont rendu un Terre-Neuve aux poils de soie! Nous avons trouv\u00e9 Phoebus et moi, Notre salon de toilettage. Nous y reviendront r\u00e9guli\u00e8rement pour entretenir Monsieur. Un grand merci \u00e0 vous deux. JE RECOMMANDE \u00c0 200%.",
+            "author": {
+                "name": "Mireille Rouche-Laborde",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL_6u5gghwyWFflxVG9p7TnKTwtzse7rXyXkg_2mK0Wd43_TA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2022-01-13T18:13:22.470961Z"
+        },
+        {
+            "rating": 5,
+            "text": "Quelle belle exp\u00e9rience! C\u2019\u00e9tait la premi\u00e8re visite chez un toiletteur pour notre June et il \u00e9tait tr\u00e8s important pour nous que tout se passe bien, et nous ne nous sommes pas tromp\u00e9s en choisissant le So salon canin!\nAu t\u00e9l\u00e9phone Sandrine m'a expliqu\u00e9 comment se d\u00e9rouler le travail, elle a pos\u00e9 des questions sur notre chien. D\u00e8s que nous sommes arriv\u00e9s au salon, ils ont ferm\u00e9 la porte pour que personne ne g\u00eane leur travail. Mis en confiance, gestes tr\u00e8s doux et d\u00e9licats. Bon mat\u00e9riel, produits bio et un salon tr\u00e8s propre.\nNous souhaitons vous remercier pour votre travail! Vous \u00eates de grands professionnels et cela se voit que vous le faites avec beaucoup d'amour.  Nous ne voyons aucune raison d'aller dans un autre salon quand il y a de tels professionnels. Shogher&Pierre",
+            "author": {
+                "name": "Sho Sho",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWdcAGStintfrbYFIVb152F_e0Twac2AZO41xt5J4Nkifs2y4k=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2021-10-30T20:55:40.500782Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "159 Rue Fondaud\u00e8ge, 33000 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=15881996203115377253",
+    "id": "ChIJ2VsloAooVQ0RZXLLemYvaNw",
+    "internationalPhoneNumber": "+33 5 56 52 11 18",
+    "rating": 4.8,
+    "shortFormattedAddress": "159 Rue Fondaud\u00e8ge, Bordeaux",
+    "userRatingCount": 233,
+    "websiteUri": "https://chien-beaute-toiletteur-bordeaux.fr/",
+    "name": "Au Chien Beaut\u00e9 - Toilettage professionnel",
+    "openingHours": [
+        {
+            "day": 1,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 2,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 3,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 4,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 5,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 6,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 2,
+            "text": "J'avais pris 2 rdv chaque ann\u00e9e et il \u00e9tait \u00e0 chaque fois en retard. '' prix attractif '' le propri\u00e9taire ment sur les prix et ajuste les tarifs en fonction des clients, augmentant de 5\u20ac \u00e0 chaque rendez-vous.\nJe suis tr\u00e8s m\u00e9content du service, car le toilettage n'a pas \u00e9t\u00e9 fait correctement et j'ai d\u00fb le terminer moi-m\u00eame chez moi. M\u00eame s'il n'a pas l'honn\u00eatet\u00e9 de me donner un prix fixe, j'\u00e9tais pr\u00eat \u00e0 payer le prix n\u00e9cessaire pour le bien-\u00eatre de mon loup, mais ce fut une grosse d\u00e9ception. Une amie m'avait d\u00e9j\u00e0 pr\u00e9venu qu'il avait ras\u00e9 trop court les poils de son bichon, le faisant ressembler \u00e0 un chien chinois \u00e0 cr\u00eate. J'ai voulu essayer malgr\u00e9 tout, car c'\u00e9tait proche de chez moi et les commer\u00e7ants m'avaient dit qu'il \u00e9tait v\u00e9t\u00e9rinaire au Mexique. Finalement, je constate que la proximit\u00e9 ne compense pas la qualit\u00e9, et on peut avoir de grosses d\u00e9ceptions. Je ne recommande pas du tout. Toilettage \"Au Chien Beaut\u00e9\" \u00e0 \u00e9viter absolument.",
+            "author": {
+                "name": "Mike R",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJe2Clj0gpgMxA4g5uxIAPxMJAvlLMl9uSxMFjBoSZaFGHmtA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-09-02T09:41:10.148339Z"
+        },
+        {
+            "rating": 5,
+            "text": "Une coupe de deux heures et quinzes minutes sur mon petit caniche toy qui je le sais a le poil nou\u00e9e. N\u00e9anmoins regarder la qualit\u00e9 de la coupe, elle est sortie ravie du toilettage et toi moi aussi. \ud83e\udd70\n\nLa qualit\u00e9 de la coupe est toujours \u00e0 l\u2019attendu, seulement pr\u00e9voir quelques minutes suppl\u00e9mentaires si on vous dit deux heures pour la coupe rajouter toujours un petit quart d\u2019heure pour \u00eatre sur qu\u2019ils ont bien le temps de tout faire. \u23f3\n\nDe plus le prix est r\u00e9ellement attractif \u2705",
+            "author": {
+                "name": "Lakhdar Telli",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3gdbcYGQQQ4kJ7MPqQq4m_s0IlFQjq-IucPNwczJfMAf1QyOE=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-05-17T13:12:12.596366Z"
+        },
+        {
+            "rating": 5,
+            "text": "Mon golden avait beaucoup de noeud au premier toilettage il s'en est tr\u00e8s bien occup\u00e9 coupage des ongles etc\nSecond toilettage parfait\nTr\u00e8s satisfaite je reviendrai \ud83d\ude4f",
+            "author": {
+                "name": "Frosio Laura",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKFkSjNaeL4fBlaP5XgNPIM9fCiH2DmERnqYyT_Kkpn5QEWRQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-09-21T19:30:56.689351Z"
+        },
+        {
+            "rating": 1,
+            "text": "Nous sommes venu plusieurs fois sur 2 ann\u00e9es dans ce salon, le prix attractif pour une \u00e9pilation + brossage de dents + coupe des griffe + shampoings est tr\u00e8s attractif cependant c'est du mensonge.\nNous venons d'apprendre \u00e0 notre plus grande surprise que notre cocker ne se faisait pas epiler et d\u00e9sormais il est impossible de r\u00e9parer le pr\u00e9judice, je passe outre les multiples faux plans et les retards non pr\u00e9venu \u00e0 r\u00e9p\u00e9tition (je ne vous parle m\u00eame pas de la fois o\u00f9 j'ai vu un chien attach\u00e9 sur la table de toilettage tomber parce qu'il \u00e9tait stress\u00e9) gros coup dur pour nous et notre chien, bref salon \u00e0 \u00e9viter !",
+            "author": {
+                "name": "Ghost H",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUKlXkMVWdXQBeGqT1V1UNcAt3MSpdXkKiHFNN198QRBnOfnckK=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-02T11:21:41.128025Z"
+        },
+        {
+            "rating": 5,
+            "text": "Toiletteur au top, s\u2019occupe de nos loulous, depuis plusieurs ann\u00e9es, a toujours \u00e9t\u00e9 aux petits soins avec eux, \u00e0 l\u2019\u00e9coute, et toujours disponible et arrangeant selon notre emploi du temps.\nM\u00e9rite d\u2019\u00eatre connu dans tout Bordeaux et toute la Gironde, vous pouvez lui confier vos petits loulous, les yeux ferm\u00e9s!",
+            "author": {
+                "name": "Alizee Sammour",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL9fSv4GV9ZWaJjXBZCosW-hIG_56sdd80CfO25GaRnd74row=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-09-28T10:47:59.980574Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "7 Cr de Qu\u00e9bec, 33300 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=6282246476072592784",
+    "id": "ChIJ_zz3Jm0oVQ0RkKXBneIFL1c",
+    "internationalPhoneNumber": "+33 5 56 39 96 91",
+    "rating": 4.7,
+    "shortFormattedAddress": "7 Cr de Qu\u00e9bec, Bordeaux",
+    "userRatingCount": 398,
+    "websiteUri": "https://ginkobordeaux.wixsite.com/commechiensetchats-1",
+    "name": "Comme Chiens et Chats",
+    "openingHours": [
+        {
+            "day": 2,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 30
+        },
+        {
+            "day": 3,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 30
+        },
+        {
+            "day": 4,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 30
+        },
+        {
+            "day": 5,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 30
+        },
+        {
+            "day": 6,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 30
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "Ambiance tr\u00e8s chaleureuse et accueillante avec personnel d\u2019une gentillesse exceptionnelle, ambiance cocooning et d\u00e9tente m\u00eame pour prendre un caf\u00e9 ou imprimer des documents. Tarifs pour les soins animaliers avec un tr\u00e8s bon rapport prestations / prix. Vous pouvez \u00e9galement y envoyer vos courriers, Rar et d\u00e9poser ou retirer vos colis dans cet \u00e9tablissement qui fait \u00e9galement point relais.",
+            "author": {
+                "name": "Mat Rrero",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVFPEP0ENgGujGIC0kp7zqNSPx2m-xM3iSpfQLR_YH6Ks8eEJmJ=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "publishedAt": "2023-01-24T11:55:49.418739Z"
+        },
+        {
+            "rating": 5,
+            "text": "J\u2019adore cette boutique. Les vendeurs sont tr\u00e8s sympas. La deco est trop belle. N\u2019en d\u00e9plaise aux gens qui n\u2019aiment pas les chiens. J\u2019adore voir ce bouledogue ce balader comme il le veut dans la boutique.\nMerci",
+            "author": {
+                "name": "La\u00ef Lla",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLgmNXfVJxFEVG5mJkxjOXGSmnIl6vz6JpV8wR4KNLfWo4keA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-09-03T17:55:44.694673Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je recommande vivement les compositions florales.\n\nLes bouquets d\u2019Agn\u00e8s sont toujours d\u2019une qualit\u00e9 exceptionnelle. Les fleurs sont fra\u00eeches, soigneusement s\u00e9lectionn\u00e9es et arrang\u00e9es avec un grand souci du d\u00e9tail. Chaque cr\u00e9ation est unique et parfaitement adapt\u00e9e \u00e0 l\u2019occasion.\nAgn\u00e8s est tr\u00e8s gentille et donne des conseils avis\u00e9s, ce qui ajoute une touche personnelle \u00e0 chaque bouquet. Son service est irr\u00e9prochable et attentif.\n\nMerci beaucoup, Agn\u00e8s, pour vos magnifiques bouquets et pour votre service exceptionnel !\nIsabelle",
+            "author": {
+                "name": "Isabelle Brst",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK4aWloxKxgxDDn-aDSa4Vk5ihCO7x3kOo2otxNDNyo-cBlaA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-07-30T12:21:59.858743Z"
+        },
+        {
+            "rating": 5,
+            "text": "Un accueil toujours agr\u00e9able; un relais colis au top, et surtout une boutique pour animaux qui d\u00e9panne \u00e9norm\u00e9ment, merci d'\u00eatre dans le quartier ",
+            "author": {
+                "name": "Alexandra Bgt",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWNeMU-xW-VWmcaFXzE1kaBI1-mQaMPY3HnNA0CmoOoGNqJyv3d=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-06T15:07:00.823885Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis vraiment contente que cette boutique soit dans mon quartier. Ils font service relais colis et d'autres transporteur, toiletteurs pour animaux, vente de produits pour animaux et aussi vente de produits artisanaux de quartier. Le propri\u00e9taire est aussi actif dans la vie de quartier. Aucune id\u00e9e comment ils arrivent \u00e0 tous faire mais ils y arrive. C'est pr\u00e9cieux les boutiques comme ca. Merci",
+            "author": {
+                "name": "Cl\u00e9mentine Meyniel-Breguet",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLb8aKG2Krwnc8CjTF0NDXc1eUvWgoTzzzKolcLEEqSVpBPiA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-07-26T13:50:18.733444Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "188 Av. Louis Barthou, 33200 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=14003672979928638348",
+    "id": "ChIJ3aGi7PTXVA0RjONhb2EKV8I",
+    "internationalPhoneNumber": "+33 5 56 42 51 40",
+    "rating": 4.9,
+    "shortFormattedAddress": "188 Av. Louis Barthou, Bordeaux",
+    "userRatingCount": 57,
+    "websiteUri": null,
+    "name": "Fidji Toilettage",
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "Lily a tout de suite \u00e9t\u00e9 \u00e0 l'aise, elle \u00e9tait trop mimi et lib\u00e9r\u00e9e de sa toison d'hiver en sortant du salon \ud83d\ude05 les 2 professionnelles ont toute notre confiance, elles sont douces, \u00e0 l'\u00e9coute, aiment et connaissent les animaux. Vous pouvez leur confier votre petit compagnon \u00e0 4 pattes sans h\u00e9siter. merci \ud83d\udc36",
+            "author": {
+                "name": "Omi Yage",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIrMPOiSyr1rUlfIZJsj2Y7tFEaujZecDKYe6xeGBS99x4gRA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishedAt": "2023-08-04T18:27:40.748205Z"
+        },
+        {
+            "rating": 5,
+            "text": "Notre bichon Basile est un fid\u00e8le du salon depuis une quinzaine d'ann\u00e9es. Il appr\u00e9cie la gentillesse, la simplicit\u00e9 chaleureuse  la douceur et le professionnalisme de Sylvie et Sabine qui aiment vraiment les animaux et les gens.  Beaucoup de convivialit\u00e9 et on y va avec grand plaisir ! Merci \u00e0 elles deux. Je conseille tr\u00e8s vivement.",
+            "author": {
+                "name": "Claire Vincentelli",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLzjvQVajaNSMyep5wiW185x3DyEytBM1W97QfnT9RvIPbJeQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2022-08-05T08:10:19.097506Z"
+        },
+        {
+            "rating": 5,
+            "text": "Elles sont extraordinairement gentilles et adorables avec nos petits chiens. Merci de votre accueil, Tiny et Ummy sont tr\u00e8s belles  et reviendront tr\u00e8s vite vous voir.",
+            "author": {
+                "name": "Sandrine TOURNADRE",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJkhEBzkr9ABXXfQkUaosTKCDEcfphC09qeiXzn4qB6c-P2Ew=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2023-12-20T14:30:07.204734Z"
+        },
+        {
+            "rating": 5,
+            "text": "Super Salon de Toilettage.\nComp\u00e9tences et accueil sympathique dans ce salon .\nMon chien est ravi de s'y rendre \u00e0 chaque fois",
+            "author": {
+                "name": "Sylvie Servant",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLBzMzIAwnS6vQ-DwtHRISrHebTkll4JXgie5qxdFEi1acSdA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2023-10-18T15:53:20.233788Z"
+        },
+        {
+            "rating": 5,
+            "text": "Patronne et employ\u00e9es tr\u00e8s gentilles et accueillantes (aussi bien pour les ma\u00eetres que pour nos compagnons \u00e0 4 pattes). Notre chienne Ga\u00efa est toujours bien toilett\u00e9e et ne craint pas de venir au salon. Vous pouvez y aller sans h\u00e9siter.",
+            "author": {
+                "name": "Emmanuelle gard\u00e8res",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV7tKwd8n_igVkzf2AkA8MXvtFo1JgNTysUqkgZh6wsOpdq4ATQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2020-11-19T17:18:44.948376Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "4 Rue Camille Godard, 33000 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=17869056745223932149",
+    "id": "ChIJhdEka3ooVQ0R9cheem-k-_c",
+    "internationalPhoneNumber": "+33 6 60 38 57 39",
+    "rating": 4.4,
+    "shortFormattedAddress": "4 Rue Camille Godard, Bordeaux",
+    "userRatingCount": 51,
+    "websiteUri": "https://toilettage-formation.fr/",
+    "name": "Cat'Pattes",
+    "openingHours": [
+        {
+            "day": 1,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 2,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 3,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 4,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        },
+        {
+            "day": 5,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 0
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 1,
+            "text": "ENTR\u00c9E POUR ACCUEIL, JE DEMANDE LA CONFIRMATION D'UN TARIF POUR TOILETTAGE: \"C'EST \u00c9CRIT L\u00c0\", je sAIS lire, les prochaines dispositions? Octobre! Octobre (avec un sourire quelLe peu condescendant. La chaleur n'aide pas lorsqu'une personne manque d'amabilit\u00e9. HORREUR, JE NE L\u00c2CHERAI PAS D'ARGENT A DES AIGRIES.",
+            "author": {
+                "name": "graciet herv\u00e9",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLoHjZ-fiElh4mJvkYVZIwCQ106xohhRrA8aVvhBRa6mYsFVw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-06T12:17:07.628717Z"
+        },
+        {
+            "rating": 5,
+            "text": "Nous aimons nous rendre au salon Cat\u2019pattes, c\u2019est un salon o\u00f9 l\u2019on sait que nos b\u00e9b\u00e9s seront choy\u00e9s. La patronne aime les animaux et \u00e7a se voit !",
+            "author": {
+                "name": "PE Food",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVmw9xCNDW2_0Y7KTbXrCBYVAd2U2fduWKLnOah9whIFJTcapc=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-07-16T20:52:55.239774Z"
+        },
+        {
+            "rating": 5,
+            "text": "La patronne est hyper sympa, elle s\u2019occupe de mon chat ( d\u2019un naturel craintif) depuis des ann\u00e9es et toujours avec amour !",
+            "author": {
+                "name": "Pierre JUGUIN",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI9VajbVDB4-G8ztiixk46-mwWzw9jPi_qzD018b6LrTdVHHQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishedAt": "2024-07-16T20:50:43.735997Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis tr\u00e8s satisfait des services de Cat'Pattes. Accueil, gentillesse, amour de son m\u00e9tier et des animaux. Rapport qualit\u00e9 prix tr\u00e8s satisfaisant. Je recommande cet \u00e9tablissement vivement.",
+            "author": {
+                "name": "Serge Ballabriga",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1JSAgZfeNWXkWCSM2_L0XzRmQQdL8LBHhdoWbgba8vQAJUnwx=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2021-12-18T09:27:39.954995Z"
+        },
+        {
+            "rating": 5,
+            "text": "Premier rendez-vous dans ce salon apr\u00e8s la fermeture du toiletteur qui s'occupait de mon Scottish terrier depuis plus de 10 ans. \u00c9quipe tr\u00e8s agr\u00e9able qui a su g\u00e9rer le caract\u00e8re un peu difficile de ma chienne. Je le conseille \u00e0 tous les propri\u00e9taires de Scottish Terrier ! Un grand merci !",
+            "author": {
+                "name": "Manon Poudoulec",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnjWEwNNonAG20JHSioZk1Z0LGoHPiX6vMSQx3FC8ZE8-l9hY=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2023-05-22T13:21:04.690776Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "103 Cr Marechal Gallieni, 33000 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=13272269700402608695",
+    "id": "ChIJrfhPyGYnVQ0RN3qtF_mSMLg",
+    "internationalPhoneNumber": "+33 6 02 02 42 54",
+    "rating": 4.8,
+    "shortFormattedAddress": "103 Cr Marechal Gallieni, Bordeaux",
+    "userRatingCount": 137,
+    "websiteUri": "https://alorsoins.wordpress.com/",
+    "name": "\u00c0 l'Or Soins",
+    "openingHours": [
+        {
+            "day": 1,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        },
+        {
+            "day": 2,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        },
+        {
+            "day": 3,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        },
+        {
+            "day": 4,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        },
+        {
+            "day": 5,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        },
+        {
+            "day": 6,
+            "startHour": 9,
+            "startMinute": 0,
+            "closeHour": 18,
+            "closeMinute": 30
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "Je tiens \u00e0 remercier Ang\u00e9lique pour avoir transform\u00e9 mon chien en un v\u00e9ritable petit bijou ! Votre patience et votre amour pour les animaux sont vraiment admirables. Je suis tellement contente de vous avoir confier mon pr\u00e9cieux compagnon entre vos mains expertes. Encore une fois, merci pour votre talent exceptionnel et votre passion pour les animaux. On reviendra vite !!",
+            "author": {
+                "name": "Raphaelle Dubar",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIQO7FGVEuHA8kQmvKlHnm9dHjP8ssqzYrfbmvEpiXRsho5tQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-06-06T11:10:29.783313Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis all\u00e9e voir Ang\u00e9lique pour mon lapin qui avait beaucoup de n\u0153uds, et j'en suis absolument ravie ! Elle a r\u00e9ussi \u00e0 tout enlever avec patience et soin. Elle a \u00e9t\u00e9 adorable tout au long du rendez-vous, aussi bien avec moi qu'avec mon petit compagnon. Son professionnalisme et sa douceur font vraiment la diff\u00e9rence. Je recommande vivement !",
+            "author": {
+                "name": "Nathalie BRUCH",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWG2Q2kOrC10gIh4RUrzqmC-GuyYrsrq-WbYGGHUBYJ5Kyhf3Q=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-09-12T14:57:45.320700Z"
+        },
+        {
+            "rating": 5,
+            "text": "Deuxi\u00e8me fois que nous venons avec Forrest mon lapin b\u00e9lier angora, malgr\u00e9 les nombreux noeuds Angelique a su faire preuve d\u2019une grande patience autant que Forrest qui se sent totalement en confiance ! Il est ressorti plus beau que jamais \ud83d\ude0e\n\nMerci encore \u2728\u2728\u2728",
+            "author": {
+                "name": "Kenza EL MAKHOUKHI",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU6bNEVXVaRrEwHulOELEodEpDApVCfY6FFvzik7IbFHnum5u6e=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-04-02T16:34:08.427760Z"
+        },
+        {
+            "rating": 5,
+            "text": "Comme toujours nous r\u00e9cup\u00e9rons Polly impeccable !\nUne coupe qui lui va \u00e0 ravi  et on ressent son bien \u00eatre, Polly sait qu'elle est belle !\nUn grand merci !",
+            "author": {
+                "name": "Lucas Germier",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI_97L1kMCBGGbCPGkNLTDiPznpKgyW116nBnH2A3p1CN63aw=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "publishedAt": "2024-07-21T21:04:34.167976Z"
+        },
+        {
+            "rating": 5,
+            "text": "Nous avons amen\u00e9 Roquette, un Maine Coon de 13kg qui avait \u00e9norm\u00e9ment de petites bouloches. Il s\u2019est \u00e9tonnement laiss\u00e9 faire et a beaucoup aim\u00e9 cette toilette.\nMerci \u00e0 vous de votre sympathie et de votre professionnalisme, nous reviendrons s\u00fbrement.",
+            "author": {
+                "name": "Mat\u00e9o",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL_n8XHkREEQfLb227BK_aXSlm5Ji325SU6j4J3octotv1BlBs=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-06-10T11:47:11.493794Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "75 Rue du V\u00e9lodrome, 33000 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=17183625871356361334",
+    "id": "ChIJj72gPfvXVA0Rdnpo76-AeO4",
+    "internationalPhoneNumber": "+33 6 82 38 02 17",
+    "rating": 4.9,
+    "shortFormattedAddress": "75 Rue du V\u00e9lodrome, Bordeaux",
+    "userRatingCount": 23,
+    "websiteUri": "https://www.facebook.com/profile.php?id=100089839688229",
+    "name": "Le style Rebecca Toilettage",
+    "openingHours": [
+        {
+            "day": 2,
+            "startHour": 9,
+            "startMinute": 30,
+            "closeHour": 17,
+            "closeMinute": 30
+        },
+        {
+            "day": 4,
+            "startHour": 9,
+            "startMinute": 30,
+            "closeHour": 17,
+            "closeMinute": 30
+        },
+        {
+            "day": 5,
+            "startHour": 9,
+            "startMinute": 30,
+            "closeHour": 17,
+            "closeMinute": 30
+        },
+        {
+            "day": 6,
+            "startHour": 9,
+            "startMinute": 30,
+            "closeHour": 17,
+            "closeMinute": 0
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "Depuis plusieurs ann\u00e9es , nous amenons r\u00e9guli\u00e8rement notre petite coton dans le salon de toilettage Rebecca . Floriane est une pro des ciseaux, elle est d\u2019une patience et d\u2019une douceur infinies  avec nos amis \u00e0 poils . Je la recommande fortement !",
+            "author": {
+                "name": "brigitte sanfourche",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKWlAkrf3_COvzQrD3o5Lr03CiEX-QF9niTMQkEm4ERxRAC-A=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-03T22:42:22.661001Z"
+        },
+        {
+            "rating": 5,
+            "text": "Nous amenons r\u00e9guli\u00e8rement notre chien chez Rebecca et cela se passe toujours tr\u00e8s bien. La coupe de notre Cairn Terrier est toujours tr\u00e8s bien faite!",
+            "author": {
+                "name": "Benjamin Dupas",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXZt9MDCq57qBmLX4bUdVrYExRt8u5a3GrkVtOzNVOJQn9pAUu3=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishedAt": "2024-09-08T07:02:49.264891Z"
+        },
+        {
+            "rating": 5,
+            "text": "Comme \u00e0 chaque fois, mon Lulu est ressorti tout beau et tout doux de son rendez-vous avec Floriane. Merci \u00e0 vous pour votre gentillesse et votre professionnalisme ! Je recommande \u00e0 100% :)",
+            "author": {
+                "name": "Pauline Sedeau",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL_fKlednGKuuBcyyEQrI98kAcSP3PUNsZO7G9lPzlay4z7tQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2022-05-17T09:20:06.686710Z"
+        },
+        {
+            "rating": 5,
+            "text": "Cela fait plusieurs ann\u00e9es que nous   amenons nos deux chiens pour une coupe aux ciseaux : un bichon et un coton.\nNous sommes ravis et nous laissons nos boules de poils en toute confiance entre les mains de Floriane. Elles ressortent toujours impeccablement toilett\u00e9es.\n\nJe recommande sans h\u00e9siter !",
+            "author": {
+                "name": "Julie Duffoire",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK0Ngigecug-OVAZokc8A9roggq5PGZMW4ps_v2xNlhy-EGnw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2023-04-02T20:04:13.452196Z"
+        },
+        {
+            "rating": 5,
+            "text": "Un cocker anglais ultra douillet qui ressort m\u00e9tamorphos\u00e9, sans stress et qui revient sans rancune\ud83d\ude0aDu tr\u00e8s bon travail.",
+            "author": {
+                "name": "brigitte andouard",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJtkDxj-OMyVKMCP8O7DeRCQTgLPKmWMmnIft7iW0iYNUe0gg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2022-06-03T07:56:45.398569Z"
+        }
+    ]
+},{
+    "businessStatus": "OPERATIONAL",
+    "formattedAddress": "103 Rue Georges Bonnac, 33000 Bordeaux, France",
+    "googleMapsUri": "https://maps.google.com/?cid=14185748725457345179",
+    "id": "ChIJvRf3F3knVQ0Rm9rVdU7n3cQ",
+    "internationalPhoneNumber": "+33 7 78 95 94 88",
+    "rating": 4.9,
+    "shortFormattedAddress": "103 Rue Georges Bonnac, Bordeaux",
+    "userRatingCount": 44,
+    "websiteUri": "https://www.aubeauchien.fr/?utm_source=gmb",
+    "name": "Au Beau Chien - Salon de toilettage & Concept Store - Bordeaux Centre",
+    "openingHours": [
+        {
+            "day": 2,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 13,
+            "closeMinute": 0
+        },
+        {
+            "day": 2,
+            "startHour": 14,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 0
+        },
+        {
+            "day": 3,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 13,
+            "closeMinute": 0
+        },
+        {
+            "day": 3,
+            "startHour": 14,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 0
+        },
+        {
+            "day": 4,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 13,
+            "closeMinute": 0
+        },
+        {
+            "day": 4,
+            "startHour": 14,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 0
+        },
+        {
+            "day": 5,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 13,
+            "closeMinute": 0
+        },
+        {
+            "day": 5,
+            "startHour": 14,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 0
+        },
+        {
+            "day": 6,
+            "startHour": 10,
+            "startMinute": 0,
+            "closeHour": 13,
+            "closeMinute": 0
+        },
+        {
+            "day": 6,
+            "startHour": 14,
+            "startMinute": 0,
+            "closeHour": 19,
+            "closeMinute": 0
+        }
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "text": "\u200fJe suis tr\u00e8s satisfait du service de toilettage pour mon chien. Le personnel a \u00e9t\u00e9 accueillant et a pris soin de bien \u00e9couter mes demandes sp\u00e9cifiques pour la coupe de mon chien. Le r\u00e9sultat est superbe ! Son pelage est doux, bien taill\u00e9 et il sent bon. Mon chien avait l'air d\u00e9tendu et heureux apr\u00e8s la s\u00e9ance, ce qui montre qu'il a \u00e9t\u00e9 bien trait\u00e9. Je recommande vivement ce salon de toilettage \u00e0 tous les propri\u00e9taires d'animaux qui cherchent un service de qualit\u00e9. Merci pour cette belle exp\u00e9rience !\"",
+            "author": {
+                "name": "leen Shamashan",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK7a5t0_kQSseC6VRoya-VLc-q17kDKN7ElJUUzS3TQ_GRelg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-07-30T14:49:03.409381Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis venue cet apr\u00e8s midi faire toiletter mon bouvier bernois de 7 mois.\nS\u00e9bastien le g\u00e9rant est super sympathique !\nL\u00e9na a tr\u00e8s bien toiletter Charly.\nJe reviendrais sans h\u00e9siter et je recommande ce salon les yeux ferm\u00e9s.",
+            "author": {
+                "name": "Flora Labat",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIxIWD8h_vz8hE3rtiZh1YjNfJJ9VofPPkNJML1SGi6WE11Sw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-05-04T14:11:54.477200Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis super contente de la prestation !\nJ'ai emmen\u00e9 le chien vieux de 16 ans de ma m\u00e8re pendant ses vacances.\nUn petit chien plein de bourre, qui en plus n'aime PAS DU TOUT  le toilettage et ils ont eu la gentillesse de faire de leur mieux et de faire un geste commercial car il hurlait et trembler tellement qu'ils n'ont pas pu terminer la t\u00eate ^^\nJ'ai demander \u00e0 ce qu'ils le tonde et le lib\u00e8re de sa bourre et de lui couper ses griffes, ils ont r\u00e9ussi malgr\u00e9 la gal\u00e8re de chien que c'est \ud83d\ude02 chapeau \u00e0 eux ! Et en plus j'ai eu mon rdv en derni\u00e8re minute ! Je recommande \ud83d\ude0a",
+            "author": {
+                "name": "Marie Hernandez",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVR7wtpEd9Uw-OJ1SQ--7d3trID6hTifjfg7j4ZkrxAuqjC3N1fig=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishedAt": "2024-07-18T12:25:42.338393Z"
+        },
+        {
+            "rating": 5,
+            "text": "Je suis ravie d\u2019avoir amen\u00e9 ma chienne dans ce salon. Personnel agr\u00e9able et rassurant\nJ\u2019avais peur et au final je suis conquise , Ta\u00efka est magnifique , son poil est tr\u00e8s bien coup\u00e9 , a\u00e9r\u00e9 et elle aura moins chaud pour le reste de l\u2019\u00e9t\u00e9.\nMerci infiniment pour votre gentillesse et votre professionnalisme. Nous reviendrons soyez en s\u00fbrs.",
+            "author": {
+                "name": "Jaubert Margaux",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK5nlhEIy4EMDEqQeLTzAcOP1YNvZ_kUjbJtEhN13tUMTr0Zg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-07T11:28:48.799284Z"
+        },
+        {
+            "rating": 5,
+            "text": "Premi\u00e8re et tr\u00e8s bonne exp\u00e9rience dans ce salon. Mon vieux loulou anxieux de 14 ans a \u00e9t\u00e9 toilett\u00e9 avec une grande douceur et le rendu est nickel. Super accueil du g\u00e9rant et des employ\u00e9es, tous tr\u00e8s sympathiques. Le salon est joli, propre et agr\u00e9able avec un emplacement id\u00e9al proche de Gambetta.\nMerci \u00e0 vous \ud83d\ude0a",
+            "author": {
+                "name": "Lili LUMEAU",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ-2wdkFVgnp4AyHi5PnO8tYkl2hiwRY_pWULhr0liDi3QoGg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishedAt": "2024-08-09T11:14:12.547527Z"
+        }
+    ]
+}]
