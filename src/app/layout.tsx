@@ -46,7 +46,7 @@ export default function RootLayout({
     <StoreProvider>
       <html lang="en" className="scroll-smooth">
         <body
-          className={classNames(inter.className, 'bg-slate-50 text-slate-900')}
+          className={classNames(inter.className, 'bg-gray-100 text-slate-900')}
         >
           <NextAuthProvider>
             <Toaster position="bottom-right" reverseOrder={true} />
