@@ -10,7 +10,7 @@ export interface GroomerDto {
 export async function GET(
   request: NextRequest
 ): Promise<NextResponse<GroomerDto>> {
-  console.info('[GET] /dashboard')
+  console.info('[GET] /groomers')
 
   const places = await prisma.place.groupBy({
     by: ['city'],

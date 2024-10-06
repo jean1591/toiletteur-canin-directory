@@ -55,7 +55,11 @@ async function main() {
         const place: Place = {
           id: cuid(),
           businessStatus: result.businessStatus || null,
-          city: result.shortFormattedAddress.split(',').pop()?.trim(),
+          city: result.shortFormattedAddress
+            .split(',')
+            .pop()
+            ?.trim()
+            .toLowerCase(),
           formattedAddress: result.formattedAddress,
           googleId: result.id || null,
           googleMapsUri: result.googleMapsUri || null,

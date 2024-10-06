@@ -1,3 +1,4 @@
+import { City } from '@/types/places'
 import { GroomerDto } from '@/app/api/groomers/route'
 import Link from 'next/link'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
@@ -7,38 +8,65 @@ export default async function Home() {
   const { cities } = data
 
   return (
-    <div>
+    <div className="w-full">
       <h1 className="text-center text-4xl font-bold text-blue-600">
         Liste des toiletteurs canins par ville
       </h1>
 
-      <div className="mt-20 flex flex-wrap items-center justify-start gap-4">
-        {cities.map((city) => (
-          <Link
-            href={`/toiletteurs-${city.name}`}
-            key={city.name}
-            className="w-full rounded-xl border-2 border-slate-800 md:w-40"
-          >
-            <div className="truncate rounded-t-xl bg-stone-200 p-4">
-              <p className="text-xl font-bold uppercase">{city.name}</p>
-            </div>
+      <div className="mt-20">
+        <QuickCityAccess />
 
-            <div className="space-y-4 p-4">
-              <div>
-                <p className="text-lg font-medium">
-                  {city.averageRating.toFixed(1)}
-                </p>
-                <p className="text-xs">Note moyenne</p>
-              </div>
-
-              <div>
-                <p className="text-lg font-medium">{city.numberOfPlaces}</p>
-                <p className="text-xs">Toiletteurs</p>
-              </div>
-            </div>
-          </Link>
-        ))}
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {cities.map((city) => (
+            <CityCard key={city.name} city={city} />
+          ))}
+        </div>
       </div>
     </div>
+  )
+}
+
+const QuickCityAccess = () => {
+  const cities = [
+    'Paris',
+    'Marseille',
+    'Lyon',
+    'Toulouse',
+    'Nice',
+    'Nantes',
+    'Montpellier',
+    'Strasbourg',
+    'Bordeaux',
+    'Lille',
+  ]
+
+  return (
+    <div className="flex items-center justify-start gap-2">
+      {cities.map((city) => (
+        <Link
+          key={city}
+          href={`/toiletteurs-a-${city.toLowerCase()}`}
+          className="rounded-2xl border-[1px] border-slate-800 px-4 py-1"
+        >
+          {city}
+        </Link>
+      ))}
+    </div>
+  )
+}
+
+const CityCard = ({ city }: { city: City }) => {
+  return (
+    <Link
+      href={`/toiletteurs-a-${city.name.toLowerCase()}`}
+      className="relative flex aspect-square w-full items-center justify-center rounded-xl border-[1px] border-slate-800"
+    >
+      <p className="truncate text-2xl font-bold">{city.name}</p>
+
+      <div className="absolute bottom-0 flex w-full items-center justify-between space-x-4 p-4 text-xl font-medium">
+        <p>{city.averageRating.toFixed(1)} ⭐️</p>
+        <p>{city.numberOfPlaces} 🧴</p>
+      </div>
+    </Link>
   )
 }

@@ -1,0 +1,45 @@
+import { Groomer, GroomerByCity } from '@/types/places'
+import { NextRequest, NextResponse } from 'next/server'
+
+import prisma from '@/lib/prisma'
+
+export interface GroomersByCityDto {
+  groomers: GroomerByCity[]
+}
+
+export async function GET(
+  request: NextRequest,
+  { params }: { params: { city: string } }
+): Promise<NextResponse<GroomersByCityDto>> {
+  console.info(`[GET] /groomers/cities/${params.city}`)
+
+  const groomers: Groomer[] = await prisma.place.findMany({
+    where: {
+      city: {
+        equals: params.city,
+        mode: 'insensitive',
+      },
+    },
+    include: { openingHours: true, reviews: true },
+    orderBy: {
+      rating: 'desc',
+    },
+  })
+
+  return NextResponse.json(modelToGroomersByCity({ groomers }))
+}
+
+const modelToGroomersByCity = ({
+  groomers,
+}: {
+  groomers: Groomer[]
+}): GroomersByCityDto => {
+  return {
+    groomers: groomers.map((groomer) => ({
+      id: groomer.id,
+      formattedAddress: groomer.formattedAddress,
+      name: groomer.name,
+      rating: groomer.rating,
+    })),
+  }
+}
