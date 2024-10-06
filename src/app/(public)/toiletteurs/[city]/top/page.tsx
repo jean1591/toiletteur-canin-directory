@@ -1,14 +1,14 @@
 import { GroomersByCityDto } from '@/app/api/dto/groomers'
-import { GroomersTable } from '../../components/GroomersTable'
+import { GroomersTable } from '@/app/(public)/components/GroomersTable'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
 
-export default async function CityPage({
+export default async function GreatGroomersInCity({
   params,
 }: {
   params: { city: string }
 }) {
   const data = await fetchDataFromApi<GroomersByCityDto>(
-    `api/groomers/cities/${params.city}`
+    `api/groomers/cities/${params.city}/top`
   )
   const { groomers } = data
 
@@ -16,12 +16,12 @@ export default async function CityPage({
     <div>
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-800">
-          Les {groomers.length} toiletteurs à{' '}
+          Les 5 meilleurs toiletteurs de
           <span className="capitalize">{params.city}</span>
         </h1>
         <h2 className="mt-4 text-xl text-gray-700">
-          Découvrez les toiletteurs de{' '}
-          <span className="capitalize">{params.city}</span>
+          Offrez la crème de la crème des toiletteurs de{' '}
+          <span className="capitalize">{params.city}</span> à votre animal
         </h2>
       </div>
 

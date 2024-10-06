@@ -8,13 +8,16 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { city: string } }
 ): Promise<NextResponse<GroomersByCityDto>> {
-  console.info(`[GET] /groomers/cities/${params.city}`)
+  console.info(`[GET] /groomers/cities/${params.city}/great`)
 
   const groomers: Groomer[] = await prisma.place.findMany({
     where: {
       city: {
         equals: params.city,
         mode: 'insensitive',
+      },
+      rating: {
+        gte: 4.5,
       },
     },
     include: { openingHours: true, reviews: true },
