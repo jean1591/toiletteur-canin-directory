@@ -15,12 +15,12 @@ export default async function CityPage({
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800">
-          Les {groomers.length} toiletteurs à{' '}
+        <h1 className="text-4xl font-bold">
+          Les {groomers.length} toiletteurs de{' '}
           <span className="capitalize">{params.city}</span>
         </h1>
-        <h2 className="mt-4 text-xl text-gray-700">
-          Découvrez les toiletteurs de{' '}
+        <h2 className="mt-4 text-xl text-slate-600">
+          Découvrez tous les endroits pour faire chouchouter votre animal à{' '}
           <span className="capitalize">{params.city}</span>
         </h2>
       </div>

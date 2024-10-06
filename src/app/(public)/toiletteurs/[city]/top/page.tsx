@@ -15,11 +15,11 @@ export default async function GreatGroomersInCity({
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800">
+        <h1 className="text-4xl font-bold">
           Les 5 meilleurs toiletteurs de
           <span className="capitalize">{params.city}</span>
         </h1>
-        <h2 className="mt-4 text-xl text-gray-700">
+        <h2 className="mt-4 text-xl text-slate-600">
           Offrez la crème de la crème des toiletteurs de{' '}
           <span className="capitalize">{params.city}</span> à votre animal
         </h2>
