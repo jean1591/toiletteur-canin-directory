@@ -9,23 +9,35 @@ import { classNames } from '@/utils/classNames'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const metaDescription = 'Generate this using ChatGPT'
-const titleAndDefault = 'Generate this using ChatGPT'
-const appUrl = 'https://my-app-name.rb2.fr'
+const metaDescription =
+  'Découvrez les meilleurs toiletteurs et services de toilettage pour chiens dans votre région. Consultez les avis et trouvez le salon de toilettage idéal pour votre compagnon.'
+const title =
+  'Top Toiletteurs - Trouvez les meilleurs salons de toilettage pour chiens'
+const keywords = [
+  `toiletteurs`,
+  `toilettage canin`,
+  `meilleurs toiletteurs`,
+  `services de toilettage pour chiens`,
+  `salon de toilettage`,
+  `avis toiletteurs`,
+  `top toiletteurs`,
+  `grooming chiens`,
+  `toilettage chiens professionnel`,
+  `salon pour chiens`,
+  `coupe chien`,
+]
+const appUrl = 'https://toiletteurs-canin.rb2.fr'
 
 export const metadata: Metadata = {
-  title: {
-    template: titleAndDefault,
-    default: titleAndDefault,
-  },
+  title: title,
   description: metaDescription,
-  keywords: 'Generate this using ChatGPT',
+  keywords,
   metadataBase: new URL(appUrl),
   openGraph: {
-    title: titleAndDefault,
+    title: title,
     description: metaDescription,
     url: appUrl,
-    siteName: titleAndDefault,
+    siteName: title,
     images: [
       {
         url: '/hero-profile.jpeg',
