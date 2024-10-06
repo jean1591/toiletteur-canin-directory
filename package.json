@@ -1,9 +1,9 @@
 {
-  "name": "INSERT_NAME",
+  "name": "toiletteurs-canin",
   "version": "1.0.0",
   "author": {
     "name": "jean robertou",
-    "url": "https://[INSERT_NAME].rb2.fr"
+    "url": "https://toiletteurs-canin.rb2.fr"
   },
   "private": false,
   "scripts": {
