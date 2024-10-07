@@ -18,7 +18,7 @@ export const GroomerItem = ({
   return (
     <Link
       key={groomer.id}
-      href={`/toiletteurs/${createSlug(city)}/${createSlug(groomer.name)}/${groomer.id}`}
+      href={`/toiletteurs-a-${createSlug(city)}/${createSlug(groomer.name)}/${groomer.id}`}
       className={classNames(
         buttonHoverTransition,
         index === 0 ? 'rounded-t-xl' : '',
