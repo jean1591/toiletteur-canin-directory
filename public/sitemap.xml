@@ -1,8 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://toiletteur-canin.rb2.fr/</loc>
-        <lastmod>2024-10-06T10:00:00+00:00</lastmod>
-        <priority>1.00</priority>
-    </url>
+  <!-- Static URLs -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Dynamic URLs for each city -->
+  <!-- Paris -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-paris</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-paris</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-paris</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- Add individual groomers for Paris dynamically if needed -->
+
+  <!-- Marseille -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-marseille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-marseille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-marseille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Lyon -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-lyon</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-lyon</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-lyon</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Toulouse -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-toulouse</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-toulouse</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-toulouse</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Nice -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-nice</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-nice</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-nice</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Nantes -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-nantes</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-nantes</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-nantes</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Montpellier -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-montpellier</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-montpellier</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-montpellier</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Strasbourg -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-strasbourg</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-strasbourg</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-strasbourg</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Bordeaux -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-bordeaux</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-bordeaux</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-bordeaux</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Lille -->
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/toiletteur-a-lille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/top-toiletteur-a-lille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toiletteur-canin.rb2.fr/bon-toiletteur-a-lille</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
