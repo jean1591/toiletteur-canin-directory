@@ -1,3 +1,4 @@
+import { BreadCrumbs } from '@/app/(public)/components/BreadCrumbs'
 import { DisplayOpeningHours } from './components/DisplayOpeningHours'
 import { DisplayReviews } from './components/DisplayReviews'
 import { GroomerDto } from '@/app/api/groomers/[uuid]/route'
@@ -7,7 +8,7 @@ import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
 import { metadata } from '@/app/layout'
 
 interface Props {
-  params: { name: string; uuid: string }
+  params: { city: string; name: string; uuid: string }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -33,8 +34,18 @@ export default async function GroomerPage({ params }: Props) {
   const { groomer } = data
   const { openingHours, reviews } = groomer
 
+  const links = [
+    { label: 'accueil', url: '/' },
+    {
+      label: `Toiletteurs à ${params.city}`,
+      url: `/toiletteurs-a-${params.city}`,
+    },
+  ]
+
   return (
     <div className="space-y-8">
+      <BreadCrumbs city={params.city} links={links} />
+
       <Header groomer={groomer} />
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

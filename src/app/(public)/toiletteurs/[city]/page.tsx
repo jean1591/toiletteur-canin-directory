@@ -1,3 +1,4 @@
+import { BreadCrumbs } from '../../components/BreadCrumbs'
 import { GroomersByCityDto } from '@/app/api/dto/groomers'
 import { GroomersTable } from '../../components/GroomersTable'
 import { Metadata } from 'next'
@@ -35,20 +36,26 @@ export default async function CityPage({ params }: Props) {
   )
   const { groomers } = data
 
+  const links = [{ label: 'accueil', url: '/' }]
+
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold leading-none tracking-tight">
           Les {groomers.length} toiletteurs de{' '}
           <span className="capitalize">{params.city}</span>
         </h1>
-        <h2 className="mt-4 text-xl text-slate-600">
+        <h2 className="mt-4 text-xl leading-none tracking-tight text-slate-600">
           Découvrez tous les endroits pour faire chouchouter votre animal à{' '}
           <span className="capitalize">{params.city}</span>
         </h2>
       </div>
 
       <div className="mt-20">
+        <BreadCrumbs city={params.city} links={links} />
+      </div>
+
+      <div className="mt-8">
         <GroomersTable city={params.city} groomers={groomers} />
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { BreadCrumbs } from '@/app/(public)/components/BreadCrumbs'
 import { GroomersByCityDto } from '@/app/api/dto/groomers'
 import { GroomersTable } from '@/app/(public)/components/GroomersTable'
 import { Metadata } from 'next'
@@ -31,6 +32,14 @@ export default async function GreatGroomersInCity({ params }: Props) {
   )
   const { groomers } = data
 
+  const links = [
+    { label: 'accueil', url: '/' },
+    {
+      label: `Toiletteurs à ${params.city}`,
+      url: `/toiletteurs-a-${params.city}`,
+    },
+  ]
+
   return (
     <div>
       <div className="text-center">
@@ -39,15 +48,16 @@ export default async function GreatGroomersInCity({ params }: Props) {
           <span className="capitalize">{params.city}</span>
         </h1>
         <h2 className="mt-4 text-xl leading-none tracking-tight text-slate-600">
-          Offrez le meilleur à votre animal
-        </h2>
-        <p className="mt-8 text-slate-600">
-          Découvrez les toiletteurs hautement évalués pour un service
+          Découvrez les toiletteurs évalués 4.5 ⭐️ et plus pour un service
           exceptionnel à <span className="capitalize">{params.city}</span>
-        </p>
+        </h2>
       </div>
 
       <div className="mt-20">
+        <BreadCrumbs city={params.city} links={links} />
+      </div>
+
+      <div className="mt-8">
         <GroomersTable city={params.city} groomers={groomers} />
       </div>
     </div>
