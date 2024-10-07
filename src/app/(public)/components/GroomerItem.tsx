@@ -2,12 +2,15 @@ import { GroomerByCity } from '@/types/places'
 import Link from 'next/link'
 import { buttonHoverTransition } from '@/design/constants'
 import { classNames } from '@/utils/classNames'
+import { createSlug } from '@/utils/createSlug'
 
 export const GroomerItem = ({
+  city,
   groomer,
   groomersCount,
   index,
 }: {
+  city: string
   groomer: GroomerByCity
   groomersCount: number
   index: number
@@ -15,7 +18,7 @@ export const GroomerItem = ({
   return (
     <Link
       key={groomer.id}
-      href={`/toiletteur/${groomer.id}`}
+      href={`/toiletteurs/${createSlug(city)}/${createSlug(groomer.name)}/${groomer.id}`}
       className={classNames(
         buttonHoverTransition,
         index === 0 ? 'rounded-t-xl' : '',

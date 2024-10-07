@@ -14,6 +14,7 @@ export interface GroomerByCity {
 export interface Groomer {
   id: string
   businessStatus: string | null
+  city: string
   formattedAddress: string
   googleMapsUri: string | null
   internationalPhoneNumber: string | null
@@ -25,7 +26,7 @@ export interface Groomer {
   websiteUri: string | null
 }
 
-interface OpeningHour {
+export interface OpeningHour {
   closeHour: number
   closeMinute: number
   day: number
@@ -33,7 +34,7 @@ interface OpeningHour {
   startMinute: number
 }
 
-interface Review {
+export interface Review {
   authorName: string
   authorPhotoUri: string | null
   publishedAt: Date

@@ -3,13 +3,13 @@ import { NextRequest, NextResponse } from 'next/server'
 import { City } from '@/types/places'
 import prisma from '@/lib/prisma'
 
-export interface GroomerDto {
+export interface GroupedGroomersByCityDto {
   cities: City[]
 }
 
 export async function GET(
   request: NextRequest
-): Promise<NextResponse<GroomerDto>> {
+): Promise<NextResponse<GroupedGroomersByCityDto>> {
   console.info('[GET] /groomers')
 
   const places = await prisma.place.groupBy({

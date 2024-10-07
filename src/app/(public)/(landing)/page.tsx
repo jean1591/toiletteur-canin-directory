@@ -1,12 +1,12 @@
 import { City } from '@/types/places'
-import { GroomerDto } from '@/app/api/groomers/route'
+import { GroupedGroomersByCityDto } from '@/app/api/groomers/route'
 import Link from 'next/link'
 import { buttonHoverTransition } from '@/design/constants'
 import { classNames } from '@/utils/classNames'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
 
 export default async function Home() {
-  const data = await fetchDataFromApi<GroomerDto>('api/groomers')
+  const data = await fetchDataFromApi<GroupedGroomersByCityDto>('api/groomers')
   const { cities } = data
 
   return (
