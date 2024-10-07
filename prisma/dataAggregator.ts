@@ -8,10 +8,44 @@ dotenv.config()
 
 const prisma = new PrismaClient()
 
+const sleep = (ms: number): Promise<void> => {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+const biggestCitiesInFrance: string[] = [
+  'Paris',
+  'Marseille',
+  'Lyon',
+  'Toulouse',
+  'Nice',
+  'Nantes',
+  'Montpellier',
+  'Strasbourg',
+  'Bordeaux',
+  'Lille',
+]
+
 async function main() {
+  await Promise.all(
+    biggestCitiesInFrance.map(async (city) => {
+      console.log(`Fetching ${city}`)
+      const query = `toiletteur canin in ${city}`
+
+      const data = {
+        textQuery: query,
+      }
+
+      await getAndInsertData(data)
+      await sleep(2000)
+    })
+  )
+
+  console.log('Data seeded successfully.')
+}
+
+const getAndInsertData = async (data: { textQuery: string }) => {
   const baseUrl = 'https://places.googleapis.com/v1/places:searchText'
   const apiKey = process.env.GOOGLE_API_KEY
-  const query = 'toiletteur canin in Paris'
 
   const params = new URLSearchParams({
     key: apiKey || '',
@@ -19,10 +53,6 @@ async function main() {
       'places.businessStatus,places.formattedAddress,places.googleMapsUri,places.id,places.internationalPhoneNumber,places.rating,places.shortFormattedAddress,places.userRatingCount,places.websiteUri,places.displayName,places.currentOpeningHours,places.reviews,nextPageToken',
     languageCode: 'fr',
   })
-
-  const data = {
-    textQuery: query,
-  }
 
   let count = 0
   let nextPageToken: string | null = null
@@ -116,6 +146,7 @@ async function main() {
     nextPageToken = jsonResponse.nextPageToken
 
     if (nextPageToken) {
+      await sleep(2000)
       console.log(`>> nextPageToken found - ${count} --> ${count + 1}`)
       params.set('pageToken', nextPageToken)
     } else {
@@ -124,8 +155,6 @@ async function main() {
 
     count++
   }
-
-  console.log('Data seeded successfully.')
 }
 
 main()
