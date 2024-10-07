@@ -68,7 +68,7 @@ const CityCard = ({ city }: { city: City }) => {
       )}
     >
       <div className="flex items-center justify-between gap-2">
-        <p className="truncate text-lg font-bold">{city.name}</p>
+        <p className="truncate text-lg font-bold capitalize">{city.name}</p>
         <p className="font-medium">{city.averageRating.toFixed(1)} ⭐️</p>
       </div>
 

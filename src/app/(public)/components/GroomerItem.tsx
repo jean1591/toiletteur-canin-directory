@@ -26,7 +26,9 @@ export const GroomerItem = ({
         'grid grid-cols-1 bg-white p-4 hover:bg-stone-100 md:grid-cols-7'
       )}
     >
-      <p className="col-span-3 font-bold uppercase">{groomer.name}</p>
+      <p className="col-span-3 font-bold capitalize">
+        {groomer.name.toLowerCase()}
+      </p>
       <p>{groomer.rating ? `${groomer.rating} ⭐️` : ''} </p>
       <p className="col-span-3">{groomer.formattedAddress}</p>
     </Link>
