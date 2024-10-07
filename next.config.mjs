@@ -4,20 +4,20 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/toiletteurs-a-:city', // URL users will see
-        destination: '/toiletteurs/:city', // The internal dynamic route
+        source: '/toiletteur-a-:city', // URL users will see
+        destination: '/toiletteur/:city', // The internal dynamic route
       },
       {
-        source: '/toiletteurs-a-:city/:name/:uuid', // URL users will see
-        destination: '/toiletteurs/:city/:name/:uuid', // The internal dynamic route
+        source: '/toiletteur-a-:city/:name/:uuid', // URL users will see
+        destination: '/toiletteur/:city/:name/:uuid', // The internal dynamic route
       },
       {
-        source: '/top-toiletteurs-a-:city', // URL users will see
-        destination: '/toiletteurs/:city/top', // The internal dynamic route
+        source: '/top-toiletteur-a-:city', // URL users will see
+        destination: '/toiletteur/:city/top', // The internal dynamic route
       },
       {
-        source: '/bons-toiletteurs-a-:city', // URL users will see
-        destination: '/toiletteurs/:city/great', // The internal dynamic route
+        source: '/bon-toiletteur-a-:city', // URL users will see
+        destination: '/toiletteur/:city/great', // The internal dynamic route
       },
     ]
   },

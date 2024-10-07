@@ -10,13 +10,13 @@ export const Filters = ({ city }: { city: string }) => {
 
         switch (filter) {
           case 'tous':
-            href = `/toiletteurs-a-${city.toLowerCase()}`
+            href = `/toiletteur-a-${city.toLowerCase()}`
             break
           case 'top 5':
-            href = `/top-toiletteurs-a-${city.toLowerCase()}`
+            href = `/top-toiletteur-a-${city.toLowerCase()}`
             break
           case '> 4.5 ⭐️':
-            href = `/bons-toiletteurs-a-${city.toLowerCase()}`
+            href = `/bon-toiletteur-a-${city.toLowerCase()}`
             break
           default:
             break

@@ -38,7 +38,7 @@ export default async function GroomerPage({ params }: Props) {
     { label: 'accueil', url: '/' },
     {
       label: `Toiletteurs à ${params.city}`,
-      url: `/toiletteurs-a-${params.city}`,
+      url: `/toiletteur-a-${params.city}`,
     },
   ]
 

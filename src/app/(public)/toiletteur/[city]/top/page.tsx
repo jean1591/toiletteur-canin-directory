@@ -12,23 +12,25 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     ...metadata,
-    title: `Toiletteurs Exceptionnels à ${params.city} - Noté Plus de 4.5 ⭐`,
-    description: `Trouvez les toiletteurs exceptionnels à ${params.city} avec une note supérieure à 4.5 ⭐. Consultez les avis et choisissez le meilleur service de toilettage pour votre animal.`,
+    title: `Top 5 Toiletteurs à ${params.city} - Découvrez les Meilleurs Salons de Toilettage`,
+    description: `Découvrez les 5 meilleurs toiletteurs à ${params.city} selon les avis des clients. Comparez les services, les horaires et trouvez le salon de toilettage parfait pour votre chien.`,
     keywords: [
-      'toiletteurs exceptionnels',
+      'top 5 toiletteurs',
+      `toiletteur à ${params.city}`,
       `toiletteurs à ${params.city}`,
       'meilleurs toiletteurs',
-      `groomers à ${params.city}`,
-      'toilettage pour chiens',
+      'avis toiletteur',
       'avis sur les toiletteurs',
-      'toiletteurs notés 4.5 et plus',
+      `salons de toilettage à ${params.city}`,
+      'toilettage pour chiens',
+      `groomers à ${params.city}`,
     ],
   }
 }
 
 export default async function GreatGroomersInCity({ params }: Props) {
   const data = await fetchDataFromApi<GroomersByCityDto>(
-    `api/groomers/cities/${params.city}/great`
+    `api/groomers/cities/${params.city}/top`
   )
   const { groomers } = data
 
@@ -36,7 +38,7 @@ export default async function GreatGroomersInCity({ params }: Props) {
     { label: 'accueil', url: '/' },
     {
       label: `Toiletteurs à ${params.city}`,
-      url: `/toiletteurs-a-${params.city}`,
+      url: `/toiletteur-a-${params.city}`,
     },
   ]
 
@@ -44,12 +46,12 @@ export default async function GreatGroomersInCity({ params }: Props) {
     <div>
       <div className="text-center">
         <h1 className="text-4xl font-bold leading-none tracking-tight">
-          Les toiletteurs étoilés à{' '}
+          Top 5 des toiletteurs de{' '}
           <span className="capitalize">{params.city}</span>
         </h1>
         <h2 className="mt-4 text-xl leading-none tracking-tight text-slate-600">
-          Découvrez les toiletteurs évalués 4.5 ⭐️ et plus pour un service
-          exceptionnel à <span className="capitalize">{params.city}</span>
+          Choisissez parmi les meilleurs toiletteurs pour offrir le meilleur à
+          votre compagnon à <span className="capitalize">{params.city}</span>
         </h2>
       </div>
 

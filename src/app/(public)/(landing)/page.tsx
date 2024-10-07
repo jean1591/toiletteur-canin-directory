@@ -47,7 +47,7 @@ const QuickCityAccess = () => {
       {cities.map((city) => (
         <Link
           key={city}
-          href={`/toiletteurs-a-${city.toLowerCase()}`}
+          href={`/toiletteur-a-${city.toLowerCase()}`}
           className="rounded-xl border-[1px] border-stone-300 bg-white px-4 py-1 shadow-lg"
         >
           {city}
@@ -60,7 +60,7 @@ const QuickCityAccess = () => {
 const CityCard = ({ city }: { city: City }) => {
   return (
     <Link
-      href={`/toiletteurs-a-${city.name.toLowerCase()}`}
+      href={`/toiletteur-a-${city.name.toLowerCase()}`}
       className={classNames(
         buttonHoverTransition,
         'relative flex aspect-square w-full items-center justify-center rounded-xl border-[1px] border-stone-300 bg-white shadow-lg hover:shadow-none'

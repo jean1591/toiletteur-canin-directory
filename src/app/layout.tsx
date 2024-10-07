@@ -11,23 +11,23 @@ import { classNames } from '@/utils/classNames'
 const inter = Inter({ subsets: ['latin'] })
 
 const metaDescription =
-  'Découvrez les meilleurs toiletteurs et services de toilettage pour chiens dans votre région. Consultez les avis et trouvez le salon de toilettage idéal pour votre compagnon.'
+  'Découvrez les meilleurs toiletteurs et services de toilettage pour chiens dans votre ville. Consultez les avis et trouvez le salon de toilettage idéal pour votre compagnon.'
 const title =
   'Top Toiletteurs - Trouvez les meilleurs salons de toilettage pour chiens'
 const keywords = [
-  `toiletteurs`,
-  `toilettage canin`,
-  `meilleurs toiletteurs`,
-  `services de toilettage pour chiens`,
-  `salon de toilettage`,
-  `avis toiletteurs`,
-  `top toiletteurs`,
-  `grooming chiens`,
-  `toilettage chiens professionnel`,
-  `salon pour chiens`,
-  `coupe chien`,
+  'toiletteurs',
+  'toilettage canin',
+  'meilleurs toiletteurs',
+  'services de toilettage pour chiens',
+  'salon de toilettage',
+  'avis toiletteurs',
+  'top toiletteurs',
+  'grooming chiens',
+  'toilettage chiens professionnel',
+  'salon pour chiens',
+  'coupe chien',
 ]
-const appUrl = 'https://toiletteurs-canin.rb2.fr'
+const appUrl = 'https://toiletteur-canin.rb2.fr'
 
 export const metadata: Metadata = {
   title: title,

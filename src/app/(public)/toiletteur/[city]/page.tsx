@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Meilleurs toiletteurs à ${params.city} - Trouvez les salons de toilettage`,
     description: `Découvrez les meilleurs toiletteurs dans la ville de ${params.city}. Consultez les avis, les horaires et trouvez un service de toilettage adapté pour votre chien.`,
     keywords: [
+      `toiletteur à ${params.city}`,
       `toiletteurs à ${params.city}`,
       `toilettage canin à ${params.city}`,
       `meilleurs toiletteurs à ${params.city}`,
