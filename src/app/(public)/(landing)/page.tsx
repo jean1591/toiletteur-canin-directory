@@ -1,6 +1,7 @@
 import { City } from '@/types/places'
 import { GroupedGroomersByCityDto } from '@/app/api/groomers/route'
 import Link from 'next/link'
+import { PiMapPin } from 'react-icons/pi'
 import { buttonHoverTransition } from '@/design/constants'
 import { classNames } from '@/utils/classNames'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
@@ -18,7 +19,7 @@ export default async function Home() {
       <div className="mt-20">
         <QuickCityAccess />
 
-        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {cities.map((city) => (
             <CityCard key={city.name} city={city} />
           ))}
@@ -43,7 +44,7 @@ const QuickCityAccess = () => {
   ]
 
   return (
-    <div className="flex items-center justify-start gap-2">
+    <div className="flex flex-wrap items-center justify-start gap-2">
       {cities.map((city) => (
         <Link
           key={city}
@@ -63,16 +64,17 @@ const CityCard = ({ city }: { city: City }) => {
       href={`/toiletteur-a-${city.name.toLowerCase()}`}
       className={classNames(
         buttonHoverTransition,
-        'relative flex aspect-square w-full items-center justify-center rounded-xl border-[1px] border-stone-300 bg-white shadow-lg hover:shadow-none'
+        'space-y-8 rounded-xl border-[1px] border-stone-300 bg-white p-4 shadow-none hover:shadow-lg'
       )}
     >
-      <p className="text-wrap text-center text-2xl font-bold">{city.name}</p>
+      <div className="flex items-center justify-between gap-2">
+        <p className="truncate text-lg font-bold">{city.name}</p>
+        <p className="font-medium">{city.averageRating.toFixed(1)} ⭐️</p>
+      </div>
 
-      <div className="absolute bottom-0 w-full rounded-b-xl bg-stone-200">
-        <div className="flex items-center justify-between space-x-4 p-4 text-xl font-medium">
-          <p>{city.averageRating.toFixed(1)} ⭐️</p>
-          <p>{city.numberOfPlaces} 🧴</p>
-        </div>
+      <div className="flex items-center justify-start gap-1 text-sm text-slate-600">
+        <PiMapPin className="h-4 w-4" />
+        <p>{city.numberOfPlaces} toiletteurs</p>
       </div>
     </Link>
   )
