@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
 import NextAuthProvider from './components/NextAuthProvider'
+import Script from 'next/script'
 import { StoreProvider } from '@/store/StoreProvider'
 import { Toaster } from 'react-hot-toast'
 import { classNames } from '@/utils/classNames'
@@ -61,6 +62,11 @@ export default function RootLayout({
           className={classNames(inter.className, 'bg-stone-100 text-slate-800')}
         >
           <NextAuthProvider>
+            <Script
+              defer
+              src="https://analytics.rb2.fr/script.js"
+              data-website-id="d1a73c24-62d2-4171-859f-da080ee2209b"
+            />
             <Toaster position="bottom-right" reverseOrder={true} />
             {children}
           </NextAuthProvider>
