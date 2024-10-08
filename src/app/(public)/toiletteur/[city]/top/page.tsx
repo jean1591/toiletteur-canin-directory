@@ -12,7 +12,7 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     ...metadata,
-    title: `Top 5 Toiletteurs à ${params.city} - Découvrez les Meilleurs Salons de Toilettage`,
+    title: `Top 5 toiletteurs à ${params.city} - Découvrez les Meilleurs salons de toilettage`,
     description: `Découvrez les 5 meilleurs toiletteurs à ${params.city} selon les avis des clients. Comparez les services, les horaires et trouvez le salon de toilettage parfait pour votre chien.`,
     keywords: [
       'top 5 toiletteurs',
@@ -50,8 +50,9 @@ export default async function GreatGroomersInCity({ params }: Props) {
           <span className="capitalize">{params.city}</span>
         </h1>
         <h2 className="mt-4 text-xl leading-none tracking-tight text-slate-600">
-          Choisissez parmi les meilleurs toiletteurs pour offrir le meilleur à
-          votre compagnon à <span className="capitalize">{params.city}</span>
+          Choisissez parmi les meilleurs salons de toilettage pour offrir le
+          meilleur à votre compagnon à{' '}
+          <span className="capitalize">{params.city}</span>
         </h2>
       </div>
 

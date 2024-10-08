@@ -47,8 +47,8 @@ export default async function CityPage({ params }: Props) {
           <span className="capitalize">{params.city}</span>
         </h1>
         <h2 className="mt-4 text-xl leading-none tracking-tight text-slate-600">
-          Découvrez tous les endroits pour faire chouchouter votre animal à{' '}
-          <span className="capitalize">{params.city}</span>
+          Découvrez tous les salons de toilettage pour faire chouchouter votre
+          animal à <span className="capitalize">{params.city}</span>
         </h2>
       </div>
 

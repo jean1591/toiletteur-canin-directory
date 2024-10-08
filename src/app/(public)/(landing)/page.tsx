@@ -13,7 +13,7 @@ export default async function Home() {
   return (
     <div className="w-full">
       <h1 className="text-center text-4xl font-extrabold">
-        Toiletteurs canins par ville
+        Salons de toilettage et toiletteurs canins par ville
       </h1>
 
       <div className="mt-20">
