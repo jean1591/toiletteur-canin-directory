@@ -1,3 +1,5 @@
+import { Footer } from './components/Footer'
+
 export default function PublicLayout({
   children,
 }: Readonly<{
@@ -8,6 +10,8 @@ export default function PublicLayout({
       <div className="mx-auto my-20 min-h-screen px-4 sm:px-6 lg:px-8">
         {children}
       </div>
+
+      <Footer />
     </div>
   )
 }
