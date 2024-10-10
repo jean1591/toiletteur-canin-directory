@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { endpointFormatter, logger } from '@/app/api/utils/logger'
 
 import { Groomer } from '@/types/places'
 import { GroomersByCityDto } from '@/app/api/dto/groomers'
@@ -8,7 +9,7 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { city: string } }
 ): Promise<NextResponse<GroomersByCityDto>> {
-  console.info(`[GET] /groomers/cities/${params.city}/top`)
+  logger.info(endpointFormatter(request))
 
   const groomers: Groomer[] = await prisma.place.findMany({
     where: {

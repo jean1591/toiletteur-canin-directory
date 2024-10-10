@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { endpointFormatter, logger } from '../utils/logger'
 
 import { City } from '@/types/places'
 import prisma from '@/lib/prisma'
@@ -10,7 +11,7 @@ export interface GroupedGroomersByCityDto {
 export async function GET(
   request: NextRequest
 ): Promise<NextResponse<GroupedGroomersByCityDto>> {
-  console.info('[GET] /groomers')
+  logger.info(endpointFormatter(request))
 
   const places = await prisma.place.groupBy({
     by: ['city'],
