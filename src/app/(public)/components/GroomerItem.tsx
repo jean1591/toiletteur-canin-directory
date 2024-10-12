@@ -29,7 +29,14 @@ export const GroomerItem = ({
       <p className="col-span-3 font-bold capitalize">
         {groomer.name.toLowerCase()}
       </p>
-      <p>{groomer.rating ? `${groomer.rating} ⭐️` : ''} </p>
+      {groomer.rating && (
+        <div className="flex items-center justify-center gap-2">
+          <p>{`${groomer.rating} ⭐️`} </p>
+          {groomer.userRatingCount && (
+            <p className="text-xs text-slate-600">{`(${groomer.userRatingCount})`}</p>
+          )}
+        </div>
+      )}
       <p className="col-span-3">{groomer.formattedAddress}</p>
     </Link>
   )

@@ -19,9 +19,18 @@ export async function GET(
       },
     },
     include: { openingHours: true, reviews: true },
-    orderBy: {
-      rating: 'desc',
-    },
+    orderBy: [
+      {
+        rating: {
+          sort: 'desc',
+        },
+      },
+      {
+        userRatingCount: {
+          sort: 'desc',
+        },
+      },
+    ],
   })
 
   return NextResponse.json(modelToGroomersByCity({ groomers }))
@@ -38,6 +47,7 @@ const modelToGroomersByCity = ({
       formattedAddress: groomer.formattedAddress,
       name: groomer.name,
       rating: groomer.rating,
+      userRatingCount: groomer.userRatingCount,
     })),
   }
 }

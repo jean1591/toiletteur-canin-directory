@@ -9,6 +9,7 @@ export interface GroomerByCity {
   formattedAddress: string
   name: string
   rating: number | null
+  userRatingCount: number | null
 }
 
 export interface Groomer {

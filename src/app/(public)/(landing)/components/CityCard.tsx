@@ -26,7 +26,7 @@ export const CityCard = ({
         fill
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
         className={`object-cover transition-transform duration-300 group-hover:scale-105 ${isLoading ? 'scale-110 blur-2xl grayscale' : 'scale-100 blur-0 grayscale-0'} `}
-        onLoadingComplete={() => setLoading(false)}
+        onLoad={() => setLoading(false)}
         priority={priority}
         loading={priority ? 'eager' : 'lazy'}
       />

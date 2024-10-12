@@ -22,9 +22,18 @@ export async function GET(
       },
     },
     include: { openingHours: true, reviews: true },
-    orderBy: {
-      rating: 'desc',
-    },
+    orderBy: [
+      {
+        rating: {
+          sort: 'desc',
+        },
+      },
+      {
+        userRatingCount: {
+          sort: 'desc',
+        },
+      },
+    ],
     take: 5,
   })
 
@@ -36,12 +45,14 @@ const modelToGroomersByCity = ({
 }: {
   groomers: Groomer[]
 }): GroomersByCityDto => {
+  console.log('🚀 ~ groomers:groomers.map ~ groomers:', groomers)
   return {
     groomers: groomers.map((groomer) => ({
       id: groomer.id,
       formattedAddress: groomer.formattedAddress,
       name: groomer.name,
       rating: groomer.rating,
+      userRatingCount: groomer.userRatingCount,
     })),
   }
 }
