@@ -45,7 +45,6 @@ const modelToGroomersByCity = ({
 }: {
   groomers: Groomer[]
 }): GroomersByCityDto => {
-  console.log('🚀 ~ groomers:groomers.map ~ groomers:', groomers)
   return {
     groomers: groomers.map((groomer) => ({
       id: groomer.id,
