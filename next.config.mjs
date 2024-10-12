@@ -24,9 +24,3 @@ const nextConfig = {
 }
 
 export default nextConfig
-
-// TODO: parler de ça ☝🏼
-// TODO: parler de ça ☝🏼
-// TODO: parler de ça ☝🏼
-// TODO: parler de ça ☝🏼
-// Linkedin / Reddit / Twitter

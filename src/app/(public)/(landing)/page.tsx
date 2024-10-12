@@ -1,10 +1,24 @@
 import { City } from '@/types/places'
 import { GroupedGroomersByCityDto } from '@/app/api/groomers/route'
+import Image from 'next/image'
 import Link from 'next/link'
 import { PiMapPin } from 'react-icons/pi'
 import { buttonHoverTransition } from '@/design/constants'
 import { classNames } from '@/utils/classNames'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
+
+const cities = [
+  'Paris',
+  'Marseille',
+  'Lyon',
+  'Toulouse',
+  'Nice',
+  'Nantes',
+  'Montpellier',
+  'Strasbourg',
+  'Bordeaux',
+  'Lille',
+]
 
 export default async function Home() {
   const data = await fetchDataFromApi<GroupedGroomersByCityDto>('api/groomers')
@@ -19,7 +33,7 @@ export default async function Home() {
       <div className="mt-20">
         <QuickCityAccess />
 
-        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
           {cities.map((city) => (
             <CityCard key={city.name} city={city} />
           ))}
@@ -30,19 +44,6 @@ export default async function Home() {
 }
 
 const QuickCityAccess = () => {
-  const cities = [
-    'Paris',
-    'Marseille',
-    'Lyon',
-    'Toulouse',
-    'Nice',
-    'Nantes',
-    'Montpellier',
-    'Strasbourg',
-    'Bordeaux',
-    'Lille',
-  ]
-
   return (
     <div className="flex flex-wrap items-center justify-start gap-2">
       {cities.map((city) => (
@@ -61,20 +62,32 @@ const QuickCityAccess = () => {
 const CityCard = ({ city }: { city: City }) => {
   return (
     <Link
+      key={city.name}
       href={`/toiletteur-a-${city.name.toLowerCase()}`}
-      className={classNames(
-        buttonHoverTransition,
-        'space-y-8 rounded-xl border-[1px] border-stone-300 bg-white p-4 shadow-none hover:shadow-lg'
-      )}
+      className="group relative overflow-hidden rounded-xl border border-stone-300 shadow-sm transition-shadow hover:shadow-lg sm:aspect-video lg:aspect-square"
     >
-      <div className="flex items-center justify-between gap-2">
-        <p className="truncate text-lg font-bold capitalize">{city.name}</p>
-        <p className="font-medium">{city.averageRating.toFixed(1)} ⭐️</p>
-      </div>
-
-      <div className="flex items-center justify-start gap-1 text-sm text-slate-600">
-        <PiMapPin className="h-4 w-4" />
-        <p>{city.numberOfPlaces} toiletteurs</p>
+      <Image
+        src={`/${city.name.toLowerCase()}.jpg`}
+        alt={`${city.name} background`}
+        fill
+        sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
+        className="object-cover transition-transform duration-300 group-hover:scale-105"
+        priority
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30"></div>
+      <div className="absolute inset-0 flex flex-col justify-between p-4 text-white">
+        <div className="flex h-full items-center justify-center">
+          <h2 className="text-center text-3xl font-bold capitalize drop-shadow-lg">
+            {city.name}
+          </h2>
+        </div>
+        <div className="flex items-center justify-between text-sm font-medium">
+          <p className="drop-shadow-lg">{city.averageRating.toFixed(1)} ⭐️</p>
+          <div className="flex items-center gap-1">
+            <p className="drop-shadow-lg">{city.numberOfPlaces}</p>
+            <PiMapPin className="h-4 w-4 drop-shadow-lg" />
+          </div>
+        </div>
       </div>
     </Link>
   )
