@@ -8,9 +8,14 @@ export default async function Home() {
 
   return (
     <div className="w-full">
-      <h1 className="text-center text-4xl font-extrabold">
-        Salons de toilettage et toiletteurs canins par ville
-      </h1>
+      <div className="text-center">
+        <h1 className="text-4xl font-extrabold md:text-5xl">
+          Toilettage canin
+        </h1>
+        <h2 className="mt-2 text-xl text-slate-600 md:text-2xl">
+          Salons et toiletteurs par ville
+        </h2>
+      </div>
 
       <div className="mt-20">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
