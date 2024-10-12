@@ -67,7 +67,7 @@ const CityCard = ({ city }: { city: City }) => {
       className="group relative overflow-hidden rounded-xl border border-stone-300 shadow-sm transition-shadow hover:shadow-lg sm:aspect-video lg:aspect-square"
     >
       <Image
-        src={`/${city.name.toLowerCase()}.jpg`}
+        src={`/${city.name.toLowerCase()}.webp`}
         alt={`${city.name} background`}
         fill
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
