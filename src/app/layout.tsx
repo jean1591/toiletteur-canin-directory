@@ -52,20 +52,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const isProduction = process.env.ENV === 'production'
-
   return (
     <html lang="en" className="scroll-smooth">
       <body
         className={classNames(inter.className, 'bg-stone-100 text-slate-800')}
       >
-        {isProduction && (
-          <Script
-            defer
-            src="https://analytics.rb2.fr/script.js"
-            data-website-id="d1a73c24-62d2-4171-859f-da080ee2209b"
-          />
-        )}
+        <Script
+          defer
+          src={process.env.UMAMI_URL ?? ''}
+          data-website-id={process.env.UMAMI_SITE_ID ?? ''}
+          strategy="afterInteractive"
+        />
+
         {children}
       </body>
     </html>
