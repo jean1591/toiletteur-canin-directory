@@ -7,7 +7,7 @@ export default function PublicLayout({
 }>) {
   return (
     <div>
-      <div className="mx-auto my-20 min-h-screen px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto min-h-screen px-4 sm:px-6 lg:px-8">
         {children}
       </div>
 
