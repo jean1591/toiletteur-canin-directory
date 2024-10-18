@@ -46,25 +46,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/blog/chien-qui-aboie`,
       lastModified: new Date(),
       changeFrequency,
-      priority: 7,
+      priority: 1,
     },
     {
       url: `${baseUrl}/blog/chien-qui-pleure`,
       lastModified: new Date(),
       changeFrequency,
-      priority: 7,
+      priority: 1,
     },
     {
       url: `${baseUrl}/blog/chien-qui-tousse`,
       lastModified: new Date(),
       changeFrequency,
-      priority: 7,
+      priority: 1,
     },
     {
       url: `${baseUrl}/blog/chien-qui-tremble`,
       lastModified: new Date(),
       changeFrequency,
-      priority: 7,
+      priority: 1,
     },
   ]
 
