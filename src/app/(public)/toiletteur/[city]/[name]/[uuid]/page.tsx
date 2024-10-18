@@ -6,6 +6,7 @@ import { Header } from './components/Header'
 import { Metadata } from 'next'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
 import { metadata } from '@/app/layout'
+import { slugify } from '@/utils/slugify'
 
 interface Props {
   params: { city: string; name: string; uuid: string }
@@ -17,6 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const { city, id, name, rating, userRatingCount } = groomer
 
+  const canonicalUrl = `${process.env.NEXT_PUBLIC_URL}/toiletteur-a-${city}/${slugify(name)}/${params.uuid}`
+
   return {
     ...metadata,
     title: `${params.name} - Salon de Toilettage`,
@@ -27,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `avis ${name} à ${city}`,
     ],
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_URL}/toiletteur-a-${city}/${name}/${params.uuid}`,
+      canonical: canonicalUrl,
     },
   }
 }

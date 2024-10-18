@@ -21,9 +21,9 @@ export const Header = ({ groomer }: { groomer: Groomer }) => {
     <div className="rounded-xl border-[1px] border-stone-300 bg-white p-8 shadow-lg">
       <div className="block items-center justify-between gap-4 md:flex">
         <div className="flex items-center justify-start gap-4">
-          <p className="text-2xl font-extrabold leading-none tracking-tight">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight">
             {name}
-          </p>
+          </h1>
           {websiteUri && (
             <Link href={websiteUri} target="_blank">
               <PiArrowSquareIn className="h-6 w-6" />
