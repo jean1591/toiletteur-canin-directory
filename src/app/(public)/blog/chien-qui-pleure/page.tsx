@@ -1,7 +1,8 @@
+import { appUrl, metadata } from '@/app/layout'
+
 import { DarkenedImage } from '../components/DarkenedImage'
 import Link from 'next/link'
 import { Metadata } from 'next'
-import { metadata } from '@/app/layout'
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -16,6 +17,9 @@ export async function generateMetadata(): Promise<Metadata> {
       'solutions pour chien',
       'santé canine',
     ],
+    alternates: {
+      canonical: `${appUrl}/blog/chien-qui-pleure`,
+    },
   }
 }
 

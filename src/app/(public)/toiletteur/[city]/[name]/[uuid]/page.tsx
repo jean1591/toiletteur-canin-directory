@@ -1,3 +1,5 @@
+import { appUrl, metadata } from '@/app/layout'
+
 import { BreadCrumbs } from '@/app/(public)/components/BreadCrumbs'
 import { DisplayOpeningHours } from './components/DisplayOpeningHours'
 import { DisplayReviews } from './components/DisplayReviews'
@@ -5,7 +7,6 @@ import { GroomerDto } from '@/app/api/groomers/[uuid]/route'
 import { Header } from './components/Header'
 import { Metadata } from 'next'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
-import { metadata } from '@/app/layout'
 
 interface Props {
   params: { city: string; name: string; uuid: string }
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await fetchDataFromApi<GroomerDto>(`api/groomers/${params.uuid}`)
   const { groomer } = data
 
-  const { city, name, rating, userRatingCount } = groomer
+  const { city, id, name, rating, userRatingCount } = groomer
 
   return {
     ...metadata,
@@ -26,6 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `toiletteur à ${city}`,
       `avis ${name} à ${city}`,
     ],
+    alternates: {
+      canonical: `${appUrl}/toiletteur-a-${city}/${name}/${params.uuid}`,
+    },
   }
 }
 

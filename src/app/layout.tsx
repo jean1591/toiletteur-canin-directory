@@ -24,7 +24,7 @@ const keywords = [
   'salon pour chiens',
   'coupe chien',
 ]
-const appUrl = 'https://toiletteur-canin.rb2.fr'
+export const appUrl = 'https://toiletteur-canin.rb2.fr'
 
 export const metadata: Metadata = {
   title: title,

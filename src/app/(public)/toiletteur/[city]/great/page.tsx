@@ -1,9 +1,10 @@
+import { appUrl, metadata } from '@/app/layout'
+
 import { BreadCrumbs } from '@/app/(public)/components/BreadCrumbs'
 import { GroomersByCityDto } from '@/app/api/dto/groomers'
 import { GroomersTable } from '@/app/(public)/components/GroomersTable'
 import { Metadata } from 'next'
 import { fetchDataFromApi } from '@/utils/fetchDataFromApi'
-import { metadata } from '@/app/layout'
 
 interface Props {
   params: { city: string }
@@ -25,6 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       'avis sur les toiletteurs',
       'toiletteurs notés 4.5 et plus',
     ],
+    alternates: {
+      canonical: `${appUrl}/bon-toiletteur-a-${params.city}`,
+    },
   }
 }
 
