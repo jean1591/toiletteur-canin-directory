@@ -1,5 +1,6 @@
 import { appUrl, metadata } from '@/app/layout'
 
+import { Cta } from '../components/Cta'
 import { DarkenedImage } from '../components/DarkenedImage'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -128,6 +129,8 @@ export default async function ChienQuiAboiePage() {
           </p>
         </div>
       </div>
+
+      <Cta />
 
       {/* SOLUTIONS */}
       <div className="space-y-4">

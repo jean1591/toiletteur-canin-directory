@@ -1,5 +1,6 @@
 import { appUrl, metadata } from '@/app/layout'
 
+import { Cta } from '../components/Cta'
 import { DarkenedImage } from '../components/DarkenedImage'
 import Link from 'next/link'
 import { Metadata } from 'next'
@@ -118,6 +119,8 @@ export default async function ChienQuiPleurePage() {
           </p>
         </div>
       </div>
+
+      <Cta />
 
       {/* SOLUTIONS */}
       <div className="space-y-4">
