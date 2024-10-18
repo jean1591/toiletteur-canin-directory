@@ -1,9 +1,8 @@
-import { appUrl, metadata } from '@/app/layout'
-
 import { Cta } from '../components/Cta'
 import { DarkenedImage } from '../components/DarkenedImage'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { metadata } from '@/app/layout'
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -19,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'comportement canin',
     ],
     alternates: {
-      canonical: `${appUrl}/blog/chien-qui-tousse`,
+      canonical: `${process.env.NEXT_PUBLIC_URL!}/blog/chien-qui-tousse`,
     },
   }
 }
