@@ -26,21 +26,19 @@ const biggestCitiesInFrance: string[] = [
 ]
 
 async function main() {
-  await Promise.all(
-    biggestCitiesInFrance.map(async (city) => {
-      console.log(`Fetching ${city}`)
-      const query = `toiletteur canin in ${city}`
+  for (let city of biggestCitiesInFrance) {
+    console.log(`Fetching ${city}`)
+    const query = `salon de toilettage in ${city}`
 
-      const data = {
-        textQuery: query,
-      }
+    const data = {
+      textQuery: query,
+    }
 
-      await getAndInsertData(data)
-      await sleep(2000)
-    })
-  )
+    await getAndInsertData(data)
+    await sleep(2000)
 
-  console.log('Data seeded successfully.')
+    console.log('Data seeded successfully.')
+  }
 }
 
 const getAndInsertData = async (data: { textQuery: string }) => {
@@ -56,6 +54,13 @@ const getAndInsertData = async (data: { textQuery: string }) => {
 
   let count = 0
   let nextPageToken: string | null = null
+
+  const existingItems = await prisma.place.findMany({
+    select: { googleId: true },
+  })
+  const existingIds = new Set(
+    existingItems.map((item) => item.googleId).filter((item) => item !== null)
+  )
 
   while (true) {
     console.log(`Fetching page ${count}`)
@@ -81,61 +86,67 @@ const getAndInsertData = async (data: { textQuery: string }) => {
     const reviewsData: Review[] = []
 
     for (const result of places) {
-      try {
-        const place: Place = {
-          id: cuid(),
-          businessStatus: result.businessStatus || null,
-          city: result.shortFormattedAddress
-            .split(',')
-            .pop()
-            ?.trim()
-            .toLowerCase(),
-          formattedAddress: result.formattedAddress,
-          googleId: result.id || null,
-          googleMapsUri: result.googleMapsUri || null,
-          internationalPhoneNumber: result.internationalPhoneNumber || null,
-          name: result.displayName?.text,
-          rating: result.rating || null,
-          userRatingCount: result.userRatingCount || null,
-          websiteUri: result.websiteUri || null,
-        }
+      if (!existingIds.has(result.id)) {
+        try {
+          const place: Place = {
+            id: cuid(),
+            businessStatus: result.businessStatus || null,
+            city: result.shortFormattedAddress
+              .split(',')
+              .pop()
+              ?.trim()
+              .toLowerCase(),
+            formattedAddress: result.formattedAddress,
+            googleId: result.id || null,
+            googleMapsUri: result.googleMapsUri || null,
+            internationalPhoneNumber: result.internationalPhoneNumber || null,
+            name: result.displayName?.text,
+            rating: result.rating || null,
+            userRatingCount: result.userRatingCount || null,
+            websiteUri: result.websiteUri || null,
+          }
 
-        placesData.push(place)
+          placesData.push(place)
 
-        // Opening hours
-        const currentOpeningHours = result.currentOpeningHours
-        if (currentOpeningHours && currentOpeningHours.periods) {
-          for (const period of currentOpeningHours.periods) {
-            const openingHour: OpeningHour = {
+          // Opening hours
+          const currentOpeningHours = result.currentOpeningHours
+          if (currentOpeningHours && currentOpeningHours.periods) {
+            for (const period of currentOpeningHours.periods) {
+              const openingHour: OpeningHour = {
+                id: cuid(),
+                closeHour: period.close.hour,
+                closeMinute: period.close.minute,
+                day: period.open.day,
+                startHour: period.open.hour,
+                startMinute: period.open.minute,
+                placeId: place.id,
+              }
+              openingHoursData.push(openingHour)
+            }
+          }
+
+          // Reviews
+          const gReviews = result.reviews || []
+          for (const review of gReviews) {
+            const reviewData: Review = {
               id: cuid(),
-              closeHour: period.close.hour,
-              closeMinute: period.close.minute,
-              day: period.open.day,
-              startHour: period.open.hour,
-              startMinute: period.open.minute,
+              authorName: review.authorAttribution.displayName,
+              authorPhotoUri: review.authorAttribution.photoUri || null,
+              publishedAt: new Date(review.publishTime),
+              rating: review.rating,
+              text: review.text?.text || null,
               placeId: place.id,
             }
-            openingHoursData.push(openingHour)
+            reviewsData.push(reviewData)
           }
+        } catch (error) {
+          console.error(error)
+          console.info(JSON.stringify(result))
         }
-
-        // Reviews
-        const gReviews = result.reviews || []
-        for (const review of gReviews) {
-          const reviewData: Review = {
-            id: cuid(),
-            authorName: review.authorAttribution.displayName,
-            authorPhotoUri: review.authorAttribution.photoUri || null,
-            publishedAt: new Date(review.publishTime),
-            rating: review.rating,
-            text: review.text?.text || null,
-            placeId: place.id,
-          }
-          reviewsData.push(reviewData)
-        }
-      } catch (error) {
-        console.error(error)
-        console.info(JSON.stringify(result))
+      } else {
+        console.log(
+          `❌ - Place previously fetched - ${result.displayName?.text}`
+        )
       }
     }
 
