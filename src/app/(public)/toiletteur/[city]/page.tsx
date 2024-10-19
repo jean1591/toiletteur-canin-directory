@@ -28,6 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `salon pour chiens à ${params.city}`,
       `coupe chien à ${params.city}`,
     ],
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_URL}/toiletteur-a-${params.city}`,
+    },
   }
 }
 
