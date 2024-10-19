@@ -38,12 +38,23 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/hero-profile.jpeg',
+        url: '/hero-profile.png',
         width: 500,
         height: 500,
       },
     ],
     type: 'website',
+  },
+  twitter: {
+    title,
+    card: 'summary',
+    description: metaDescription,
+    images: [
+      {
+        url: `${appUrl}/hero-profile.png`,
+        alt: title,
+      },
+    ],
   },
 }
 
