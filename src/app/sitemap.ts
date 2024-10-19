@@ -68,5 +68,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  return [...cityPages, ...blogPages]
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency,
+      priority: 1,
+    },
+    ...cityPages,
+    ...blogPages,
+  ]
 }
